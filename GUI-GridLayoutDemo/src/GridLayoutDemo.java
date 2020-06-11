@@ -10,7 +10,7 @@ public class GridLayoutDemo {
 	public GridLayoutDemo() {
 		
 		f = new JFrame("GridLayoutDemo");
-		b1 = new JButton("Button 1");
+		b1 = new JButton("Button 1" );
 		b2 = new JButton("Button 2");
 		b3 = new JButton("Button 3");
 		b4 = new JButton("Long-Named Button 4");
