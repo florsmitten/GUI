@@ -11,7 +11,7 @@ public class BorderLayoutDemo {
 	public BorderLayoutDemo() {
 		
 		f = new JFrame("BorderLayoutDemo");
-		bn = new JButton("Button 1 (PAGE_START)");
+		bn = new JButton("Button 1 (PAGE_START) ");
 		bc = new JButton("Button 2 (LINE_START)");
 		bw = new JButton("Button 3 (CENTER)");
 		bs = new JButton("Long-Named Button 4 (PAGE_END)");
