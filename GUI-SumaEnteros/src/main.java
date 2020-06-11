@@ -4,8 +4,8 @@ public class main {
 
 	public static void main(String[] args) {
 		
-		String sPrimerNro = JOptionPane.showInputDialog("Ingrese el primer número ");
-		String sSegundoNro = JOptionPane.showInputDialog("Ingrese el segundo número ");
+		String sPrimerNro = JOptionPane.showInputDialog("Ingrese el primer número");
+		String sSegundoNro = JOptionPane.showInputDialog("Ingrese el segundo número");
 		
 		int PrimerNro = Integer.parseInt(sPrimerNro);
 		int SegundoNro = Integer.parseInt(sSegundoNro);
