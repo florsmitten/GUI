@@ -22,7 +22,7 @@ public class CheckBoxFrame extends JFrame implements ActionListener {
 		super("CkeckBox");
 		setLayout(new FlowLayout());
 		
-		TxtIdiomas = new JTextField("Indique Idiomas que domina");
+		TxtIdiomas = new JTextField("Indique Idiomas que domina" );
 		TxtIdiomas.setFont(new Font("Times New Roman", Font.BOLD,14));
 		TxtIdiomas.setEditable(false);
 		TxtIdiomas.setBackground(super.getBackground());
