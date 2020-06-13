@@ -6,6 +6,7 @@ public class main {
 		CheckBoxFrame cbf = new CheckBoxFrame();
 		cbf.setSize(200,200);
 		cbf.setVisible(true);
+		
 	}
 
 }
