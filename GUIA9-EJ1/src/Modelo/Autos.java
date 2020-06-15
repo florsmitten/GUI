@@ -12,7 +12,7 @@ public class Autos {
 	private boolean equipoMultimedia;
 	private boolean aireAcondicionado;
 	private boolean gps;
-	private TreeSet<Modelos> modelos;
+	private Modelos modelos;
 	protected ArrayList<Mantenimientos> mantenimientos = new ArrayList<Mantenimientos>();
 	
 	public String getPatente() {
@@ -51,10 +51,10 @@ public class Autos {
 	public void setGps(boolean gps) {
 		this.gps = gps;
 	}
-	public TreeSet<Modelos> getModelos() {
+	public Modelos getModelos() {
 		return modelos;
 	}
-	public void setModelos(TreeSet<Modelos> modelos) {
+	public void setModelos(Modelos modelos) {
 		this.modelos = modelos;
 	}
     public ArrayList<Mantenimientos> getMantenimientos() {
