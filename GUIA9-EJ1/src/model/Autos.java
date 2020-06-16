@@ -1,13 +1,13 @@
-package Modelo;
+package model;
 
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.TreeSet;
 
 public class Autos {
 	
 	private String patente;
 	private Calendar fechaPatentamiento;
+	private double precioCompra;
 	private char tipoCombustible;
 	private boolean equipoMultimedia;
 	private boolean aireAcondicionado;
@@ -26,6 +26,12 @@ public class Autos {
 	}
 	public void setFechaPatentamiento(Calendar fechaPatentamiento) {
 		this.fechaPatentamiento = fechaPatentamiento;
+	}
+	public double getPrecioCompra() {
+		return precioCompra;
+	}
+	public void setPrecioCompra(double precioCompra) {
+		this.precioCompra = precioCompra;
 	}
 	public char getTipoCombustible() {
 		return tipoCombustible;
@@ -61,13 +67,28 @@ public class Autos {
         return mantenimientos;
     }
 
-    public void setCalificaciones() {
-    	mantenimientos.add(new Mantenimientos());
+    public void setMantenimientos(Calendar fechaMantenimiento) {
+    	mantenimientos.add(new Mantenimientos(fechaMantenimiento));
     }
 
     public void setMantenimientos(int indice, Calendar fechaMantenimiento) {
     	mantenimientos.get(indice).setFechaMantenimiento(fechaMantenimiento);
     }
+    
+    public Autos() {}
+    
+	public Autos(String patente, Calendar fechaPatentamiento, double precioCompra, char tipoCombustible,
+			boolean equipoMultimedia, boolean aireAcondicionado, boolean gps, Modelos modelos) {
+		super();
+		this.patente = patente;
+		this.fechaPatentamiento = fechaPatentamiento;
+		this.precioCompra = precioCompra;
+		this.tipoCombustible = tipoCombustible;
+		this.equipoMultimedia = equipoMultimedia;
+		this.aireAcondicionado = aireAcondicionado;
+		this.gps = gps;
+		this.modelos = modelos;
+	}
 	
 	
 	

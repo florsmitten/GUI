@@ -1,6 +1,4 @@
-package Modelo;
-
-import java.util.TreeSet;
+package model;
 
 public class Modelos {
 

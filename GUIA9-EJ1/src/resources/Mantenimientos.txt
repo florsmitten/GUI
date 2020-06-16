@@ -1,0 +1,3 @@
+guarda los controles preventivos y las reparaciones realizadas en los vehículos con la información separada por “;” (punto y coma).
+Este archivo contiene: patente, tipo de mantenimiento (control preventivo o reparación), fecha (yyyymmdd) y costo.
+Si se trata de una reparación, además incluye un comentario con las partes del vehículo que fueron reparadas y el costo correspondiente

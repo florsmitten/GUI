@@ -1,4 +1,6 @@
-package Modelo;
+package model;
+
+import java.util.Iterator;
 
 public class Marcas {
 
@@ -25,7 +27,4 @@ public class Marcas {
 		this.codigoMarca = codigoMarca;
 		this.descripcionMarcas = descripcionMarcas;
 	}
-	
-	
-	
 }

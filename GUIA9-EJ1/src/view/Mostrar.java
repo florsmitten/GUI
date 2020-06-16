@@ -1,4 +1,4 @@
-package Vista;
+package view;
 
 public class Mostrar {
 
